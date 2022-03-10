@@ -1,5 +1,8 @@
 const express = require('express')
 const server = express();
+require('dotenv').config();
+const PORT = process.env.PORT || 9000;
+
 
 
 server.get('/', (req,res)=>{
@@ -10,7 +13,8 @@ server.get('/', (req,res)=>{
 
 
 
-server.listen(9000,()=>{
-    console.log('server running on 9000')
+server.listen(PORT,()=>{
+
+    console.log('server running on', PORT , process.env.USER) 
 })
 
