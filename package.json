@@ -1,0 +1,29 @@
+{
+  "name": "bloomtechheroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatimahSarwar/bloomtechHeroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FatimahSarwar/bloomtechHeroku/issues"
+  },
+  "homepage": "https://github.com/FatimahSarwar/bloomtechHeroku#readme",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.29.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
